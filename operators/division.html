@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="box">
+          <h2>Operators</h2>
+          <div class="operators">
+            <!-- <a href="../index.html">Home</a> -->
+            <a href="addition.html">Addition(+)</a>
+            <a href="subtraction.html">Subtraction(-)</a>
+            <a class="active" href="./division.html">Division(/)</a>
+            <a href="multiplication.html">Multiplication(*)</a>
+           
+          </div>
+        </div>
+      </div>
+  
+      <script type="module">
+        let num1 = prompt("Enter First Number: ");
+        let num2 = prompt("Enter Second Number: ");
+  
+        num1 = Number(num1);
+        num2 = Number(num2);
+  
+        let div = num1 / num2;
+  
+        alert(num1 + " / " + num2 + " = " + div);
+      </script>
+</body>
+</html>

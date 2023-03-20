@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .box {
+background-color: rgb(163, 38, 38);
+padding: 73px;
+border-radius: 33px;
+text-align: center;
+color: aliceblue;
+
+}
+
+
+  .box h2 {
+margin: -35px -6px 87px 21px;
+}
+
+.box a {
+border: 2px solid black;
+text-decoration: none;
+border-radius: 5px;
+background-color: aliceblue;
+padding: 7px;
+font-family: system-ui, 
+'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+'Open Sans', 'Helvetica Neue', sans-serif;
+color: black;
+font-weight: bold;
+
+}
+a:hover{
+background-color: rgb(237, 170, 82);
+color: brown;
+}
